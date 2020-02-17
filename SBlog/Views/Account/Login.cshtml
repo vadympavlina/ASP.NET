@@ -1,0 +1,48 @@
+﻿@model MVC_Intro.ViewModel.LoginViewModel
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="row">
+        <div class="col fancy-border-post">
+           <p>@User.Identity.Name</p>
+           <hr />
+    <form method="post" asp-controller="Account" asp-action="Logout">
+        <button type="submit" class="btn btn-info">Logout</button>
+    </form>
+        </div>
+    </div>
+    
+
+
+}
+else
+{
+<div class="row">
+    <div class="col fancy-border-post">     
+        <form method="post" asp-controller="Account" asp-action="Login"
+              asp-route-returnUrl="@Model.ReturnUrl">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div>
+                <label class="col-sm-2 col-form-label" asp-for="Email"></label><br />
+                <input class="form-control" asp-for="Email" />
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div>
+                <label asp-for="Password"></label><br />
+                <input class="form-control" asp-for="Password" />
+                <span asp-validation-for="Password"></span>
+            </div>
+            <hr />
+            <div>
+                <label asp-for="RememberMe"></label><br />
+                <input asp-for="RememberMe" />
+            </div>
+            <div>
+                <button type="submit" class="btn btn-info">Enter</button>
+            </div>
+        </form>
+    </div>
+    <div class="col fancy-border-post"> <a asp-controller="Account" asp-action="Register" class="btn btn-info">Регистрация</a></div>
+</div>
+    
+   
+}

@@ -1,0 +1,25 @@
+2020-02-17 10:46:43.2105|WARN|MVC_Intro.Controllers.ErrorController|404 Error Occured. Path = /img/photo_effects_filters_app.jpg and QueryString = 
+2020-02-17 10:48:18.4443|WARN|MVC_Intro.Controllers.ErrorController|404 Error Occured. Path = /img/photo_effects_filters_app.jpg and QueryString = 
+2020-02-17 10:48:23.6187|WARN|MVC_Intro.Controllers.ErrorController|404 Error Occured. Path = /img/photo_effects_filters_app.jpg and QueryString = 
+2020-02-17 11:06:32.7143|WARN|MVC_Intro.Controllers.ErrorController|404 Error Occured. Path = /img/photo_effects_filters_app.jpg and QueryString = 
+2020-02-17 11:08:23.1899|WARN|MVC_Intro.Controllers.ErrorController|404 Error Occured. Path = /img/photo_effects_filters_app.jpg and QueryString = 
+2020-02-17 11:10:28.9103|TRACE|MVC_Intro.Controllers.BlogController|Trace Log
+2020-02-17 11:10:28.9103|DEBUG|MVC_Intro.Controllers.BlogController|Debug Log
+2020-02-17 11:10:28.9103|INFO|MVC_Intro.Controllers.BlogController|Information Log
+2020-02-17 11:10:28.9103|WARN|MVC_Intro.Controllers.BlogController|Warning Log
+2020-02-17 11:10:28.9103|ERROR|MVC_Intro.Controllers.BlogController|Error Log
+2020-02-17 11:10:28.9103|FATAL|MVC_Intro.Controllers.BlogController|Critical Log
+2020-02-17 11:21:57.2300|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTJHBAG1TEE", Request id "0HLTJHBAG1TEE:00000005": An unhandled exception was thrown by the application.
+2020-02-17 11:21:58.8715|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTJHBAG1TEE", Request id "0HLTJHBAG1TEE:00000006": An unhandled exception was thrown by the application.
+2020-02-17 11:24:21.5494|TRACE|MVC_Intro.Controllers.BlogController|Trace Log
+2020-02-17 11:24:21.6023|DEBUG|MVC_Intro.Controllers.BlogController|Debug Log
+2020-02-17 11:24:21.6023|INFO|MVC_Intro.Controllers.BlogController|Information Log
+2020-02-17 11:24:21.6023|WARN|MVC_Intro.Controllers.BlogController|Warning Log
+2020-02-17 11:24:21.6023|ERROR|MVC_Intro.Controllers.BlogController|Error Log
+2020-02-17 11:24:21.6023|FATAL|MVC_Intro.Controllers.BlogController|Critical Log
+2020-02-17 11:24:23.9342|TRACE|MVC_Intro.Controllers.BlogController|Trace Log
+2020-02-17 11:24:23.9342|DEBUG|MVC_Intro.Controllers.BlogController|Debug Log
+2020-02-17 11:24:23.9342|INFO|MVC_Intro.Controllers.BlogController|Information Log
+2020-02-17 11:24:23.9342|WARN|MVC_Intro.Controllers.BlogController|Warning Log
+2020-02-17 11:24:23.9342|ERROR|MVC_Intro.Controllers.BlogController|Error Log
+2020-02-17 11:24:23.9342|FATAL|MVC_Intro.Controllers.BlogController|Critical Log

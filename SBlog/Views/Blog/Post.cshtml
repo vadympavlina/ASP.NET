@@ -1,0 +1,16 @@
+﻿
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="fancy-border-post">
+                <h2>Post</h2>
+                <h3>@Model.title</h3>
+                <img src="~/img/@Model.img" alt="@Model.title" class="bloc fancy-border" />
+                <p>@Model.fullPost</p>
+                <hr />
+                <a class="btn btn-success" asp-controller="Blog" asp-action="Blog" asp-route-id="Blog">More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
