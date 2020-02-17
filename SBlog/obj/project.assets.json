@@ -13252,11 +13252,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vadim\\Downloads\\SBlog-master\\MVC Intro.csproj",
+      "projectUniqueName": "C:\\Users\\vadim\\Desktop\\ASP.NET\\SBlog\\MVC Intro.csproj",
       "projectName": "MVC Intro",
-      "projectPath": "C:\\Users\\vadim\\Downloads\\SBlog-master\\MVC Intro.csproj",
+      "projectPath": "C:\\Users\\vadim\\Desktop\\ASP.NET\\SBlog\\MVC Intro.csproj",
       "packagesPath": "C:\\Users\\vadim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vadim\\Downloads\\SBlog-master\\obj\\",
+      "outputPath": "C:\\Users\\vadim\\Desktop\\ASP.NET\\SBlog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

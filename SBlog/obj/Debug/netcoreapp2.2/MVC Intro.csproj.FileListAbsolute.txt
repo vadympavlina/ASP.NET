@@ -181,3 +181,45 @@ C:\Users\vadim\Downloads\SBlog-master\obj\Debug\netcoreapp2.2\MVC Intro.dll
 C:\Users\vadim\Downloads\SBlog-master\obj\Debug\netcoreapp2.2\MVC Intro.pdb
 C:\Users\vadim\Downloads\SBlog-master\obj\Debug\netcoreapp2.2\MVC Intro.csproj.CopyComplete
 C:\Users\vadim\Downloads\SBlog-master\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\bin\Debug\netcoreapp2.2\nlog.config
+C:\Users\vadim\Desktop\ASP.NET\SBlog\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\vadim\Desktop\ASP.NET\SBlog\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\vadim\Desktop\ASP.NET\SBlog\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\vadim\Desktop\ASP.NET\SBlog\bin\Debug\netcoreapp2.2\MVC Intro.deps.json
+C:\Users\vadim\Desktop\ASP.NET\SBlog\bin\Debug\netcoreapp2.2\MVC Intro.runtimeconfig.json
+C:\Users\vadim\Desktop\ASP.NET\SBlog\bin\Debug\netcoreapp2.2\MVC Intro.runtimeconfig.dev.json
+C:\Users\vadim\Desktop\ASP.NET\SBlog\bin\Debug\netcoreapp2.2\MVC Intro.dll
+C:\Users\vadim\Desktop\ASP.NET\SBlog\bin\Debug\netcoreapp2.2\MVC Intro.pdb
+C:\Users\vadim\Desktop\ASP.NET\SBlog\bin\Debug\netcoreapp2.2\MVC Intro.Views.dll
+C:\Users\vadim\Desktop\ASP.NET\SBlog\bin\Debug\netcoreapp2.2\MVC Intro.Views.pdb
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.csprojAssemblyReference.cache
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.RazorAssemblyInfo.cache
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.RazorAssemblyInfo.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.AssemblyInfoInputs.cache
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.AssemblyInfo.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.TagHelpers.input.cache
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.TagHelpers.output.cache
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.RazorCoreGenerate.cache
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Admin.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\CreatePost.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Blog\Blog.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Blog\Edit.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Blog\Post.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\PostNotFound.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.RazorTargetAssemblyInfo.cache
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.RazorTargetAssemblyInfo.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.Views.pdb
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.dll
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.pdb
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.csproj.CopyComplete

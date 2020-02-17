@@ -52,6 +52,20 @@ namespace MVC_Intro.Controllers
             var posts = _postRepository.GetAllPosts().Reverse().ToList(); ;
             return View(posts);
         }
+
+        public IActionResult Delete(int id)
+        {
+            var post = _postRepository.GetPostById(id);
+            if (post.img != null && post.img != "news.svg")
+            {
+
+                string filePath = Path.Combine(hostingEnvironment.WebRootPath, "img", post.img);
+                System.IO.File.Delete(filePath);
+            }
+            _postRepository.DeletePost(id);
+            return RedirectToAction("Blog");
+
+        }
         [HttpGet]
         public ViewResult Edit(int id)
         {
