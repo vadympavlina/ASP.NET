@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -26,7 +27,6 @@ namespace MVC_Intro.Controllers
             this.hostingEnvironment = hostingEnvironment;
             this.logger = logger;
         }
-
         [Route("Blog/Post/{id}")]
         public IActionResult Post(int id)
         {
@@ -52,7 +52,7 @@ namespace MVC_Intro.Controllers
             var posts = _postRepository.GetAllPosts().Reverse().ToList(); ;
             return View(posts);
         }
-
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id)
         {
             var post = _postRepository.GetPostById(id);
@@ -67,6 +67,7 @@ namespace MVC_Intro.Controllers
 
         }
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public ViewResult Edit(int id)
         {
             BlogModel post = _postRepository.GetPostById(id);
@@ -83,6 +84,7 @@ namespace MVC_Intro.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit(PostEditViewModel model)
         {
 
