@@ -76,5 +76,6 @@ namespace MVC_Intro
                 SeedBlogPosts.SeedBlogData(context);
             }
         }
+
     }
 }

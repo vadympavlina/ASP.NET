@@ -44,7 +44,7 @@ namespace MVC_Intro.Controllers
                     }
                     else
                     {
-                        return RedirectToAction("Index", "Home");
+                        return RedirectToAction("Blog", "Blog");
                     }
                 }
                 else
@@ -60,7 +60,7 @@ namespace MVC_Intro.Controllers
         {
             // удаляем аутентификационные куки
             await signInManager.SignOutAsync();
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Blog", "Blog");
         }
 
 
