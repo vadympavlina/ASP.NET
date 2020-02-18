@@ -142,3 +142,4 @@ CREATE TABLE [AspNetRoles] (
 2020-02-18 10:29:34.5504|WARN|MVC_Intro.Controllers.BlogController|Warning Log
 2020-02-18 10:29:34.5504|ERROR|MVC_Intro.Controllers.BlogController|Error Log
 2020-02-18 10:29:34.5504|FATAL|MVC_Intro.Controllers.BlogController|Critical Log
+2020-02-18 11:30:41.3731|WARN|MVC_Intro.Controllers.ErrorController|404 Error Occured. Path = /Account/AccessDenied and QueryString = ?ReturnUrl=%2FAdmin%2FAdmin

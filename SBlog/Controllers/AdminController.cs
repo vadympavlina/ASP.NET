@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
@@ -23,6 +24,7 @@ namespace MVC_Intro.Controllers
             _postRep = postRep;
             this.hostingEnvironment = hostingEnvironment;
         }
+        [Authorize(Roles = "Admin")]
         public IActionResult Admin()
         {
             return View();

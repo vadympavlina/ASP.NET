@@ -1,0 +1,18 @@
+﻿@model IEnumerable<IdentityUser>
+
+<div class="fancy-border-post">
+    <h2>Список пользователей</h2>
+    <table class="table">
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>
+                    <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-userid="@user.Id">Права доступа</a>
+                </td>
+            </tr>
+        }
+    </table>
+    <hr />
+    <a asp-controller="Admin" asp-action="Admin" class="btn btn-info">Cancel</a>
+</div>

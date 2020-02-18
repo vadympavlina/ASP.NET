@@ -263,3 +263,7 @@ C:\Users\Pavl_gm1b\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.Views
 C:\Users\Pavl_gm1b\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.dll
 C:\Users\Pavl_gm1b\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.pdb
 C:\Users\Pavl_gm1b\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.csproj.CopyComplete
+C:\Users\Pavl_gm1b\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Create.g.cshtml.cs
+C:\Users\Pavl_gm1b\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\UserList.g.cshtml.cs
+C:\Users\Pavl_gm1b\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Edit.g.cshtml.cs
+C:\Users\Pavl_gm1b\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.g.cshtml.cs
