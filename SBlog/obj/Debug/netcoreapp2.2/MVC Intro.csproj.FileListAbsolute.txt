@@ -267,3 +267,7 @@ C:\Users\Pavl_gm1b\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Rol
 C:\Users\Pavl_gm1b\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\UserList.g.cshtml.cs
 C:\Users\Pavl_gm1b\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Edit.g.cshtml.cs
 C:\Users\Pavl_gm1b\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.g.cshtml.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Create.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Edit.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\UserList.cshtml.g.cs
