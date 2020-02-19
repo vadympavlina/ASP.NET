@@ -99,10 +99,11 @@ html {
 }
 
 body {
-    background: linear-gradient(-45deg, #eb21e7,#eec752, #e73c7e,#42d4c3, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #eb21e7,#eec752, #e73c7e,#42d4c3, #23a6d5, #23d5ab,#4cff00,#ffea00);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
+
 
 @keyframes gradient {
     0% {
@@ -118,6 +119,7 @@ body {
     }
 }
 .footer {
+    
   position: absolute;
   bottom: 0;
   width: 100%;

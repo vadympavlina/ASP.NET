@@ -38,16 +38,21 @@
                         <li class="nav-item link_nav">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Blog" asp-action="Blog">Blog</a>
                         </li>
-
-                        <li class="nav-item link_nav">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Admin">AdminPanel</a>
-                        </li>
-                      
-                     
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item link_nav">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login"> @User.Identity.Name LogOut</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Admin">AdminPanel</a>
+                            </li>
+                        }
+                        else
+                        {
+
+                        }
+                        @if (User.Identity.IsAuthenticated)
+                        {
+
+                            <li class="nav-item link_nav">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login"> Profil</a>
                             </li>
 
                         }
