@@ -52,7 +52,7 @@ namespace MVC_Intro.Controllers
             var posts = _postRepository.GetAllPosts().Reverse().ToList(); ;
             return View(posts);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Manager")]
         public IActionResult Delete(int id)
         {
             var post = _postRepository.GetPostById(id);
@@ -67,7 +67,7 @@ namespace MVC_Intro.Controllers
 
         }
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Manager")]
         public ViewResult Edit(int id)
         {
             BlogModel post = _postRepository.GetPostById(id);
@@ -84,7 +84,7 @@ namespace MVC_Intro.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Manager")]
         public IActionResult Edit(PostEditViewModel model)
         {
 
