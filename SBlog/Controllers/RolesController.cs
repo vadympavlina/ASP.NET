@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using MVC_Intro.Data.Interfaces;
 using MVC_Intro.Models;
 using MVC_Intro.ViewModel;
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace MVC_Intro.Controllers
 {
@@ -78,6 +78,9 @@ namespace MVC_Intro.Controllers
 
             return NotFound();
         }
+      
+
+
         [HttpPost]
         public async Task<IActionResult> Edit(string userId, List<string> roles)
         {

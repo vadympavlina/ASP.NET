@@ -150,3 +150,9 @@ CREATE TABLE [AspNetRoles] (
 2020-02-18 11:52:59.4639|WARN|MVC_Intro.Controllers.BlogController|Warning Log
 2020-02-18 11:52:59.4639|ERROR|MVC_Intro.Controllers.BlogController|Error Log
 2020-02-18 11:52:59.4639|FATAL|MVC_Intro.Controllers.BlogController|Critical Log
+2020-02-18 11:55:05.7643|TRACE|MVC_Intro.Controllers.BlogController|Trace Log
+2020-02-18 11:55:05.7643|DEBUG|MVC_Intro.Controllers.BlogController|Debug Log
+2020-02-18 11:55:05.7643|INFO|MVC_Intro.Controllers.BlogController|Information Log
+2020-02-18 11:55:05.7643|WARN|MVC_Intro.Controllers.BlogController|Warning Log
+2020-02-18 11:55:05.7710|ERROR|MVC_Intro.Controllers.BlogController|Error Log
+2020-02-18 11:55:05.7710|FATAL|MVC_Intro.Controllers.BlogController|Critical Log

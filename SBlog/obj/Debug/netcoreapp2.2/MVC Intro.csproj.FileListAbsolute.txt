@@ -271,3 +271,4 @@ C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\C
 C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Edit.cshtml.g.cs
 C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.cshtml.g.cs
 C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\UserList.cshtml.g.cs
+C:\Users\vadim\Desktop\ASP.NET\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\SetDefualRole.cshtml.g.cs

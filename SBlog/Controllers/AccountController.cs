@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using MVC_Intro.ViewModel;
 
@@ -81,10 +82,11 @@ namespace MVC_Intro.Controllers
             {
                 var user = new IdentityUser { UserName = model.Email, Email = model.Email };
                 var result = await userManager.CreateAsync(user, model.Password);
+
                 if (result.Succeeded)
                 {
                     await signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Blog", "Blog");
+                    return RedirectToAction("Roles", "SetDefualRole");
                 }
 
                 foreach (var error in result.Errors)
@@ -92,6 +94,7 @@ namespace MVC_Intro.Controllers
                     ModelState.AddModelError("", error.Description);
                 }
             }
+          
             return View(model);
         }
 
